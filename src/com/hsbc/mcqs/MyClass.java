@@ -1,5 +1,6 @@
 package com.hsbc.mcqs;
 
+
 public class MyClass extends A {
     public static void main(String[] args) {
         // A a1=new A();
