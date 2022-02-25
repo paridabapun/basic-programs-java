@@ -1,3 +1,5 @@
+package com.hsbc.mcqs;
+
 public class MCQ4
 {
     public static void main(String[] args)
