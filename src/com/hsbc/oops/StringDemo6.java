@@ -9,7 +9,7 @@ class StringDemo6
 		System.out.println("size  :"+x);
 		String s2="   12  3 ";
 		String s3=s2.trim();
-				System.out.println(s3);
+				System.out.println("The bvalue of"+s3);
 						System.out.println("****"+s2+"****");
 						System.out.println("****"+s3+"****");
 						boolean flag=s2.equals(s3);
