@@ -5,7 +5,7 @@ public class PrimeCheck {
 	public static boolean isPrimeCheck(int number) {
 
 		if (number <= 2) {
-			return false;
+			return false;;
 		}
 
 		else {
