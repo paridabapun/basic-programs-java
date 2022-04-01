@@ -1,4 +1,5 @@
 package com.hsbc.logicalquestion;
+
 public class ReverseString {
 
 	public static String reverse(String source) {
@@ -10,20 +11,21 @@ public class ReverseString {
 				reverse = reverse + source.charAt(i);
 
 			}
-			return reverse;        
+			return reverse;
 		}
-		
 
 	}
-	public static String recurssionMethod(String source){
-		if(source == null || source.isEmpty()){
+
+	public static String recurssionMethod(String source) {
+		if (source == null || source.isEmpty()) {
 			return source;
+		} else {
+			System.out.println("Inside Recussion method");
+//			return recurssionMethod(source.substring(1) + source.charAt(1));
+			return "abc";
+
 		}
-		else{
-		return	recurssionMethod(source.substring(1)+source.charAt(1));
-		
-		}
-		
+
 	}
 
 	public static void main(String[] args) {
@@ -38,8 +40,8 @@ public class ReverseString {
 		System.out.println(rev2);
 		String revString = reverse("Bhagabata");
 		System.out.println(revString);
-String src=recurssionMethod("Baba");
-System.out.println(src);
+		String src = recurssionMethod("Baba");
+		System.out.println(src);
 	}
 
 }
