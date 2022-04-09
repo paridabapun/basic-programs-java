@@ -13,7 +13,8 @@ public final class ImmutableClass {
 	private ImmutableClass(Integer fld1, String fld2, Date date) {
 		this.immutableField1 = fld1;
 		this.immutableField2 = fld2;
-		this.mutableField = new Date(date.getTime());
+		this.mutableField =date;
+//		this.mutableField = new Date(date.getTime());
 	}
 
 	// Factory method to store object creation logic in single place
@@ -61,7 +62,7 @@ public final class ImmutableClass {
 	private static void tryModification(Integer immutableField1, String immutableField2, Date mutableField) {
 		immutableField1 = 10000;
 		immutableField2 = "test changed";
-		mutableField.setDate(10);
+		mutableField.setDate(22);
 	}
 
 }
