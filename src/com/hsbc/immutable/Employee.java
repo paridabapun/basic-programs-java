@@ -2,24 +2,24 @@ package com.hsbc.immutable;
 
 public final class Employee {
 
-	private final String employee_id;
-	private final String employee_name;
+	private final String employeeId;
+	private final String employeeName;
 	private final Address addresss;
 
-	public Employee(String employee_id, String employee_name, Address addresss) {
+	public Employee(String employeeId, String employeeName, Address addresss) {
 		System.out.println("Employee Constructor executed");
-		this.employee_id = employee_id;
-		this.employee_name = employee_name;
+		this.employeeId = employeeId;
+		this.employeeName = employeeName;
 		this.addresss = addresss;
 
 	}
 
 	public String getEmployee_id() {
-		return employee_id;
+		return employeeId;
 	}
 
 	public String getEmployee_name() {
-		return employee_name;
+		return employeeName;
 	}
 
 	public Address getAddresss() {
@@ -28,7 +28,7 @@ public final class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [employee_id=" + employee_id + ", employee_name=" + employee_name + ", addresss=" + addresss
+		return "Employee [employee_id=" + employeeId + ", employee_name=" + employeeName + ", addresss=" + addresss
 				+ "]";
 	}
 

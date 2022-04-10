@@ -12,9 +12,9 @@ public class SplitString {
 		}
 
 		String line = "I am a java Developer";
-		String[] words = line.split(" ");
-		String[] twoWords = line.split(" 0", 2);
-		System.out.println(Arrays.toString(words) + "===============  " + Arrays.toString(twoWords));
+//		String[] words = line.split(" ");
+//		String[] twoWords = line.split(" 0", 2);
+//		System.out.println(Arrays.toString(words) + "===============  " + Arrays.toString(twoWords));
 
 	}
 }

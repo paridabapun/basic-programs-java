@@ -1,4 +1,5 @@
-import javax.swing.*;
+package com.hsbc.bigdecimal;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Arrays;
