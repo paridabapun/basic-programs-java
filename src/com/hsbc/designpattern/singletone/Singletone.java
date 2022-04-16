@@ -1,38 +1,26 @@
 package com.hsbc.designpattern.singletone;
 
-
 public class Singletone {
+	
+//	Best WAY  to  to CREATE SINGLETONE CLASS
 
-    public static void main(String[] args) {
+	private volatile static Singletone instance;
 
-//Abc2 abc = Abc2.getInstance();
-//Abc2 Abc2 = Abc2.getInstance();
+	private Singletone() {
 
-//        System.out.println(abc+""+Abc2);
+	}
 
+	public static Singletone getInstance() {
 
-        Thread thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Abc2 abc = Abc2.getInstance();
-            }
-        });
+		if (instance == null) {
+			synchronized (Singletone.class) {
 
-
-        Thread thread1 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Abc2 abc2 = Abc2.getInstance();
-            }
-        });
-
-
-        thread.start();
-        thread1.start();
-
-
-//SOMETIME IT WILL CREATE 2 OBJECT hence it fails making synchronize the method can solve the proble.. but there is a performance issue -- 1 ms will take 100 MS
-    }
-
+				if (null == instance) {
+					instance = new Singletone();
+				}
+			}
+		}
+		return instance;
+	}
 
 }
