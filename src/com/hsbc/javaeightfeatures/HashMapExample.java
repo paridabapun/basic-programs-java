@@ -1,6 +1,8 @@
 package com.hsbc.javaeightfeatures;
 
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.stream.Collectors;
 
 public class HashMapExample {
 
@@ -22,6 +24,7 @@ public class HashMapExample {
         stringStringHashMap.put("L","Liza");
         stringStringHashMap.put("M","Mama Mausi");
         System.out.println(stringStringHashMap);
+        Collection
 
     }
 }

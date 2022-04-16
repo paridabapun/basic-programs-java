@@ -2,7 +2,7 @@ package com.hsbc.designpattern.singletone;
 
 public class Singletone {
 	
-//	Best WAY to CREATE SINGLETONE CLASS
+//	Best WAY  to  to CREATE SINGLETONE CLASS
 
 	private volatile static Singletone instance;
 
