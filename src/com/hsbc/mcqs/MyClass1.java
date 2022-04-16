@@ -1,11 +1,11 @@
 package com.hsbc.mcqs;
 
 
-public class MyClass extends A {
+public class MyClass1 extends A {
     public static void main(String[] args) {
         // A a1=new A();
         // a1.funA();
-        MyClass m1 = new MyClass();
+        MyClass1 m1 = new MyClass1();
         boolean b1 = m1.getData();
         System.out.println(b1);
 

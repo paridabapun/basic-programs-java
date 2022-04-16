@@ -24,7 +24,6 @@ public class HashMapExample {
         stringStringHashMap.put("L","Liza");
         stringStringHashMap.put("M","Mama Mausi");
         System.out.println(stringStringHashMap);
-        Collection
 
     }
 }
