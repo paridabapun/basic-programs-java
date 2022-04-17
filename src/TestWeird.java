@@ -6,7 +6,6 @@ public class TestWeird {
 
 		Scanner scanner=new Scanner(System.in);
 		int number=scanner.nextInt();
-		String name=scanner.next();
 		scanner.close();
 		
 		if(number % 2 == 1 || number >= 6 && number <= 20) {
