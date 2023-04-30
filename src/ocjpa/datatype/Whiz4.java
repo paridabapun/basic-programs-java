@@ -12,7 +12,6 @@ public class Whiz4 implements A {
 
 	@Override
 	public String m1() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 

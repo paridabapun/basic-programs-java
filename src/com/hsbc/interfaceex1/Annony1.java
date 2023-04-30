@@ -6,13 +6,11 @@ public class Annony1 {
 
 			@Override
 			public void funY() {
-				// TODO Auto-generated method stub
 
 			}
 
 			@Override
 			public void funX() {
-				// TODO Auto-generated method stub
 
 			}
 		};

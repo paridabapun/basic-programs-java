@@ -4,25 +4,21 @@ public class M implements Mno {
 
 	@Override
 	public void funX() {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void funY() {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void funI() {
-		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void funM() {
-		// TODO Auto-generated method stub
 
 	}
 

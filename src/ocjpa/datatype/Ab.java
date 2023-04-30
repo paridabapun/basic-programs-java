@@ -9,7 +9,6 @@ public class Ab implements A, B {
 
 	@Override
 	public int m1() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 

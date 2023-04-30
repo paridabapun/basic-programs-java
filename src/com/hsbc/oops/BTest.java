@@ -8,7 +8,6 @@ public  class BTest extends ATest {
 
 	@Override
 	void m1(ATest a) {
-		// TODO Auto-generated method stub
 		
 	}
 

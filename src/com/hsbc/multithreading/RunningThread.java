@@ -12,7 +12,6 @@ public class RunningThread extends Thread implements Runnable {
 			t.sleep(1000);
 			System.out.println("Thats look");
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println(t.getDefaultUncaughtExceptionHandler());

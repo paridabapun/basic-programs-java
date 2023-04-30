@@ -4,7 +4,6 @@ public abstract class TestAbstratcion {
 	
 	
 	public TestAbstratcion() {
-		// TODO Auto-generated constructor stub
 	System.out.println("Indiise TestAbstraction Const");
 	}
 	
