@@ -1,6 +1,6 @@
 package com.hsbc.mcqs;
 
-public class ExceptionMCQ2 {
+public class EMCQ2 {
 
     public static void main(String[] args) {
 
