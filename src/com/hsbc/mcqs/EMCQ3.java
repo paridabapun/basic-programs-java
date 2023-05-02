@@ -13,7 +13,10 @@ public class EMCQ3 {
 
 		} catch (Exception exception) {
 			System.out.println("Exception Caught");
-		/*} catch (ArithmeticException exception) {
-			System.out.println("Exception Caught");
-		}*/ // SHOULD be a unreachable block 
+			/*
+			 * } catch (ArithmeticException exception) {
+			 * System.out.println("Exception Caught"); }
+			 */ // SHOULD be a unreachable block
+		}
 	}
+}
